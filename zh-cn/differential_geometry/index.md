@@ -1095,7 +1095,7 @@ $$
 
 具体地，看下图，在空间反演变换下，磁场竟然调转了方向！这就类似于你往一个方向走，但是镜子里的你往另一个方向走。这实在是一个灵异现象。
 
-{{< figure src="v2-150afa97add22c5c168c9e770fed9873_r.jpg" title="磁场是一个 bivector。如果你把磁场看成 vector，就会出现图中这种灵异的现象。" >}}
+{{< figure src="pseudovector.svg" title="磁场是一个 bivector。如果你把磁场看成 vector，就会出现图中这种灵异的现象。" >}}
 
 实际上，某一点处的磁场并非一个 vector，而是一个 bivector。即 $B\in (T_pM)\wedge (T_pM)$ 。它的基为 $\frac{\partial}{\partial x}\wedge \frac{\partial}{\partial y}, \\,\frac{\partial}{\partial y}\wedge \frac{\partial}{\partial z}, \\,\frac{\partial}{\partial z}\wedge \frac{\partial}{\partial x}$ 。
 
@@ -1189,7 +1189,7 @@ $\mathrm{det}(\alpha \wedge \star\beta)=\langle\alpha\mid\beta\rangle$
 
 接下来，我们给出 Hodge 对偶在欧几里得空间 $\mathbb{R}^3$ 中的示意图：
 
-{{< figure src="v2-8c262bdf127621c6918cbb5e5eabb951_r.jpg" title="Hodge Duality" >}}
+{{< figure src="Hodge_Duality.jpg" title="Hodge Duality" >}}
 
 定义了 Hodge 对偶之后，我们就可以用外代数的语言来重写麦克斯韦方程了，见下例（**例 3.7**）
 
@@ -1282,7 +1282,7 @@ $\mathrm{det}(\alpha \wedge \star\beta)=\langle\alpha\mid\beta\rangle$
 >
 > 从计算积分的角度来说，m-cells 更方便一些，但是在考虑拓扑与几何性质的时候，m-simplex 更方便一些。例如，我们可以对一个流形进行三角化（Triangulation），这往往比考虑矩形要方便得多，如下所示：
 
-{{< figure src="v2-b7c73d818d433f6ddea205571a05aee6_r.jpg" title="Triangulation" >}}
+{{< figure src="triangulation.png" title="Triangulation" >}}
 
 一个 m-链（m-chain）指的是一系列 m-cells（或 m-simplices）的线性组合：
 
